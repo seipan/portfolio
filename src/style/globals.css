@@ -17,11 +17,9 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #16a3ce; /* 紫の背景色 */
+  font-family: 'ユーザーの好みのフォント', sans-serif; 
+  color: white;
 }
+
+
