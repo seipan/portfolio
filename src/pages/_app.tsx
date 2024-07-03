@@ -1,7 +1,8 @@
-import Link from 'next/link';  // Linkをインポートします。
+import Link from 'next/link';
 import '../style/globals.css';
+import { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
     return (
         <div className="min-h-screen flex flex-col justify-center items-center">
             <header className="absolute top-0 left-0 right-0 p-5 flex justify-between">
