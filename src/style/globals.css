@@ -17,9 +17,27 @@
 }
 
 body {
-  background-color: #16a3ce; /* 紫の背景色 */
+  background-color: #eeafde; /* 紫の背景色 */
   font-family: 'ユーザーの好みのフォント', sans-serif; 
   color: white;
 }
 
 
+
+.resume-section {
+  padding: 50px 0;
+  background-color: #1a1a1d;
+  color: #c9cacc;
+  min-height: 100vh;
+}
+
+.resume-section .btn {
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+}
+
+.resume-section .btn:hover {
+  background-color: #5548c8;
+  color: white;
+}

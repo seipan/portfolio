@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faGithub , faSpotify} from '@fortawesome/free-brands-svg-icons';
 
 const About: React.FC = () => {
   return (
@@ -17,6 +17,9 @@ const About: React.FC = () => {
         </a>
         <a href="https://github.com/seipan" className="hover:scale-110 transform transition-transform">
           <FontAwesomeIcon icon={faGithub} size="3x" />
+        </a>
+        <a href="https://open.spotify.com/user/w8j0rvcyyvq3m2hfknrjjmnkr?si=2ab8d02a0df145ec" className="hover:scale-110 transform transition-transform">
+          <FontAwesomeIcon icon={faSpotify} size="3x" />
         </a>
       </div>
     </div>
